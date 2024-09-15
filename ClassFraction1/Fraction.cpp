@@ -14,4 +14,7 @@ public:
 		numerator = _numerator;
 		denominator = _denominator;
 	}
+	void Input() {
+		cin >> numerator >> denominator;
+	}
 };
