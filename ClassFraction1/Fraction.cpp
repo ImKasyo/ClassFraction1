@@ -10,4 +10,8 @@ public:
 		cout << "Construct by default";
 		numerator = denominator = 0;
 	}
+	Fraction(int _numerator, int _denominator) {
+		numerator = _numerator;
+		denominator = _denominator;
+	}
 };
