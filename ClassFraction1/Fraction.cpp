@@ -4,4 +4,10 @@ class Fraction {
 private:
 	int numerator;
 	int denominator;
+public:
+	Fraction() {
+		//construct by default
+		cout << "Construct by default";
+		numerator = denominator = 0;
+	}
 };
