@@ -22,5 +22,7 @@ public:
 	}
 };
 int main() {
-
+	Fraction fraction;
+	fraction.Input();
+	fraction.Show();
 }
