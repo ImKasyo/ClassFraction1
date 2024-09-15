@@ -17,4 +17,7 @@ public:
 	void Input() {
 		cin >> numerator >> denominator;
 	}
+	void Show() {
+		cout << numerator << "/t" << denominator << endl;
+	}
 };
