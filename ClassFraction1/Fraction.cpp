@@ -21,3 +21,6 @@ public:
 		cout << numerator << "/t" << denominator << endl;
 	}
 };
+int main() {
+
+}
