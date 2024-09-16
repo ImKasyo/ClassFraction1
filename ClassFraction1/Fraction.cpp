@@ -63,4 +63,18 @@ int main() {
 	Fraction fraction1;
 	fraction1.Input(1, 2);
 	fraction1.Show();
+
+	Fraction fraction2;
+	fraction2.Input(3, 4);
+	fraction2.Show();
+
+	Fraction fraction3 = fraction1.Sum(fraction2);
+	fraction3.Show();
+	fraction3 = fraction1.Min(fraction2);
+	fraction3.Show();
+	fraction3 = fraction1.Del(fraction2);
+	fraction3.Show();
+	fraction3 = fraction1.Multi(fraction2);
+	fraction3.Show();
+
 }
