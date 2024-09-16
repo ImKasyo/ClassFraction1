@@ -36,6 +36,12 @@ public:
 		rez.denominator = denominator + b.denominator;
 		return rez;
 	}
+	Fraction Min(Fraction& b) {
+		Fraction rez;
+		rez.numerator = numerator - b.numerator;
+		rez.denominator = denominator - b.denominator;
+		return rez;
+	}
 };
 int main() {
 	Fraction fraction;
