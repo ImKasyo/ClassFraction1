@@ -27,6 +27,10 @@ public:
 	void Input() {
 		cin >> numerator >> denominator;
 	}
+	void Input(int _numerator, int _denominator) {
+		numerator = _numerator;
+		denominator = _denominator;
+	}
 	void Show() {
 		cout << numerator << "/t" << denominator << endl;
 	}
@@ -56,7 +60,7 @@ public:
 	}
 };
 int main() {
-	Fraction fraction;
-	fraction.Input();
-	fraction.Show();
+	Fraction fraction1;
+	fraction1.Input(1, 2);
+	fraction1.Show();
 }
