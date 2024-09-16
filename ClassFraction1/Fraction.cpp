@@ -5,6 +5,18 @@ private:
 	int numerator;
 	int denominator;
 public:
+	int GetNumeration() {
+		return numerator;
+	}
+	int GetDenomirator() {
+		return denominator;
+	}
+	int SetNumeration(int x){
+		numerator = x;
+	}
+	int SetDenomirator(int x) {
+		denominator = x;
+	}
 	Fraction() {
 		numerator = denominator = 0;
 	}
