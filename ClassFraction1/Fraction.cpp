@@ -30,6 +30,12 @@ public:
 	void Show() {
 		cout << numerator << "/t" << denominator << endl;
 	}
+	Fraction Sum(Fraction& b) {
+		Fraction rez;
+		rez.numerator = numerator + b.numerator;
+		rez.denominator = denominator + b.denominator;
+		return rez;
+	}
 };
 int main() {
 	Fraction fraction;
